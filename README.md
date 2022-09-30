@@ -43,35 +43,4 @@ Full stack Flight-reservation app
     path('delete-flight/',views4.deleteFlight,name="delete_product"),                       test- done 
     path('add-airline/',views4.addNewAirCompany,name="add_airline"),                        test- done
     path('delete-airline/<id>',views4.deleteAirCompany,name="delete_airline"),              Test - done super user
- 
-]
 
-
-tests - reguler user 
-{
-  "username": 
-    "Emily"
-  ,
-  "password": 
-    "em12345678"
-  
-}
-
-staff 
-{
-  "username": 
-    "user-denmark"
-  ,
-  "password": 
-    "de12345678"
-  
-}
-Super User
-{
-  "username": 
-    "Nancy"
-  ,
-  "password": 
-    "pel22fon"
-  
-}
